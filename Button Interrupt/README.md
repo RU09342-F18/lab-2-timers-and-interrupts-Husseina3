@@ -10,5 +10,9 @@ Interrupts play a major role in making our computer systems fast, efficient and 
 Instead of the processor checking for events, interrupts alarm and interrupt the processor from its idle state
 or whatever state.
 
-|Term|Description|
-|----|------------|
+| Term |Description |
+|----|--------------|
+|PxIE |Interupt Enable|
+|PxIES|Interupt Enable select sets a falling or rising edge interrupt|
+|IFG| Interupt flag is set after the processor has been interrupted|
+|LPM| Low Power Mode|
