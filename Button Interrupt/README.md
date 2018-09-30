@@ -14,5 +14,14 @@ or whatever state.
 |----|--------------|
 |PxIE |Interupt Enable|
 |PxIES|Interupt Enable select sets a falling or rising edge interrupt|
-|IFG| Interupt flag is set after the processor has been interrupted|
+|IFG| Interrupt flag is set after the processor has been interrupted|
+|ISR| Interrupt Service Routine|
 |LPM| Low Power Mode|
+
+# Implementation 
+## MSP430G2553
+Pin1.0 was set to interrput the processor. This microcontroller has RGB LED and in the Interrupt service routine,
+the Green and Blue colors were set to be toggled. 
+## MSP430FR2311
+In this Microprocessor Pin1.1 was the button that was dedicated for interrupting the processor. In the Interupt service routine,
+the LED that was connected to Pin1.0 is set to be toggled.
