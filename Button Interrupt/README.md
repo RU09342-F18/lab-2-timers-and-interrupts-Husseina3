@@ -25,3 +25,5 @@ the Green and Blue colors were set to be toggled.
 ## MSP430FR2311
 In this Microprocessor Pin1.1 was the button that was dedicated for interrupting the processor. In the Interupt service routine,
 the LED that was connected to Pin1.0 is set to be toggled.
+### Errata 
+In toggling the RGB LED on the MSP430G2553, I was not successful in independently toggling the Red LED.
