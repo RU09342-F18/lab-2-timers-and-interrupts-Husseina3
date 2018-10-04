@@ -7,3 +7,6 @@ In this lab we have taken things up a natch. When it start or on reset the LED t
 |-----|----------|
 |Capture Mode| Records the counter value when a certain input changes. used to measure time intervals, like the frequency of a wave form|
 |Compare Mode| Performs an operation when the counter value reaches a certain vale. Used to generate periodic interrupts and generate PWM signals|
+
+### Demo Video
+https://www.youtube.com/watch?v=L8D_Fzg-Icg&feature=youtu.be
